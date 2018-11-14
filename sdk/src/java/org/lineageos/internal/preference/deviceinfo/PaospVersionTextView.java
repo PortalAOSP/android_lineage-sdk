@@ -23,19 +23,13 @@ import android.widget.TextView;
 
 import org.lineageos.platform.internal.R;
 
-public class XenonHDMaintainerTextView extends TextView {
-    private static final String TAG = "XenonHDMaintainerTextView";
+public class PaospVersionTextView extends TextView {
+    private static final String TAG = "PaospVersionTextView";
 
-    private static final String KEY_BUILD_USER_PROP = "ro.build.user";
-    private static final String KEY_XENONHD_MAINTAINER_PROP = "ro.xenonhd.maintainer";
+    private static final String KEY_XENONHD_VERSION_PROP = "ro.paosp.version";
 
-    public XenonHDMaintainerTextView(Context context, AttributeSet attrs) {
+    public PaospVersionTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        String maintainer = SystemProperties.get(KEY_XENONHD_MAINTAINER_PROP,"");
-        if (maintainer == "") {
-            setText(SystemProperties.get(KEY_BUILD_USER_PROP));
-        } else {
-            setText(SystemProperties.get(KEY_XENONHD_MAINTAINER_PROP));
-        }
+        setText(SystemProperties.get(KEY_XENONHD_VERSION_PROP));
     }
 }
