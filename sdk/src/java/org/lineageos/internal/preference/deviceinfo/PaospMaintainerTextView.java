@@ -27,15 +27,15 @@ public class PaospMaintainerTextView extends TextView {
     private static final String TAG = "PaospMaintainerTextView";
 
     private static final String KEY_BUILD_USER_PROP = "ro.build.user";
-    private static final String KEY_XENONHD_MAINTAINER_PROP = "ro.paosp.maintainer";
+    private static final String KEY_PAOSP_MAINTAINER_PROP = "ro.paosp.maintainer";
 
     public PaospMaintainerTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        String maintainer = SystemProperties.get(KEY_XENONHD_MAINTAINER_PROP,"");
+        String maintainer = SystemProperties.get(KEY_PAOSP_MAINTAINER_PROP,"");
         if (maintainer == "") {
             setText(SystemProperties.get(KEY_BUILD_USER_PROP));
         } else {
-            setText(SystemProperties.get(KEY_XENONHD_MAINTAINER_PROP));
+            setText(SystemProperties.get(KEY_PAOSP_MAINTAINER_PROP));
         }
     }
 }

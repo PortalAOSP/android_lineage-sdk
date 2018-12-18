@@ -27,13 +27,13 @@ public class PaospDeviceTextView extends TextView {
     private static final String TAG = "PaospDeivceTextView";
 
     private static final String KEY_PRODUCT_MODEL_PROP = "ro.product.model";
-    private static final String KEY_XENONHD_DEVICE_PROP = "ro.paosp.device";
+    private static final String KEY_PAOSP_DEVICE_PROP = "ro.paosp.device";
 
     public PaospDeviceTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        if (KEY_XENONHD_DEVICE_PROP != KEY_PRODUCT_MODEL_PROP) {
+        if (KEY_PAOSP_DEVICE_PROP != KEY_PRODUCT_MODEL_PROP) {
             setText(String.format("%s (%s)", SystemProperties.get(KEY_PRODUCT_MODEL_PROP),
-                SystemProperties.get(KEY_XENONHD_DEVICE_PROP)));
+                SystemProperties.get(KEY_PAOSP_DEVICE_PROP)));
         } else {
             setText(SystemProperties.get(KEY_PRODUCT_MODEL_PROP));
         }

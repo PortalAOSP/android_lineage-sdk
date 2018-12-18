@@ -26,10 +26,10 @@ import org.lineageos.platform.internal.R;
 public class PaospVersionTextView extends TextView {
     private static final String TAG = "PaospVersionTextView";
 
-    private static final String KEY_XENONHD_VERSION_PROP = "ro.paosp.version";
+    private static final String KEY_PAOSP_VERSION_PROP = "ro.paosp.version";
 
     public PaospVersionTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setText(SystemProperties.get(KEY_XENONHD_VERSION_PROP));
+        setText(SystemProperties.get(KEY_PAOSP_VERSION_PROP));
     }
 }

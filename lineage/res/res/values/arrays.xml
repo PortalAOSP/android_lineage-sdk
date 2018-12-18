@@ -122,21 +122,21 @@
         <item>org.lineageos.overlay.accent.blue</item>
         <item>org.lineageos.overlay.accent.brown</item>
         <item>org.lineageos.overlay.accent.green</item>
-        <item>com.xenonhd.overlay.accent.amber.android</item>
-        <item>com.xenonhd.overlay.accent.bluelight.android</item>
-        <item>com.xenonhd.overlay.accent.cyan.android</item>
-        <item>com.xenonhd.overlay.accent.denim.android</item>
-        <item>com.xenonhd.overlay.accent.gold.android</item>
-        <item>com.xenonhd.overlay.accent.greenlight.android</item>
-        <item>com.xenonhd.overlay.accent.lime.android</item>
-        <item>com.xenonhd.overlay.accent.orange.android</item>
-        <item>com.xenonhd.overlay.accent.oxygen.android</item>
-        <item>com.xenonhd.overlay.accent.pink.android</item>
-        <item>com.xenonhd.overlay.accent.pixel.android</item>
-        <item>com.xenonhd.overlay.accent.purple.android</item>
-        <item>com.xenonhd.overlay.accent.red.android</item>
-        <item>com.xenonhd.overlay.accent.teal.android</item>
-        <item>com.xenonhd.overlay.accent.turquoise.android</item>
-        <item>com.xenonhd.overlay.accent.yellow.android</item>
+        <item>com.paosp.overlay.accent.amber.android</item>
+        <item>com.paosp.overlay.accent.bluelight.android</item>
+        <item>com.paosp.overlay.accent.cyan.android</item>
+        <item>com.paosp.overlay.accent.denim.android</item>
+        <item>com.paosp.overlay.accent.gold.android</item>
+        <item>com.paosp.overlay.accent.greenlight.android</item>
+        <item>com.paosp.overlay.accent.lime.android</item>
+        <item>com.paosp.overlay.accent.orange.android</item>
+        <item>com.paosp.overlay.accent.oxygen.android</item>
+        <item>com.paosp.overlay.accent.pink.android</item>
+        <item>com.paosp.overlay.accent.pixel.android</item>
+        <item>com.paosp.overlay.accent.purple.android</item>
+        <item>com.paosp.overlay.accent.red.android</item>
+        <item>com.paosp.overlay.accent.teal.android</item>
+        <item>com.paosp.overlay.accent.turquoise.android</item>
+        <item>com.paosp.overlay.accent.yellow.android</item>
     </string-array>
 </resources>
